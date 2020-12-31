@@ -9,30 +9,30 @@ c = conn.cursor()
 
 #creating tables (will be commented out after successful completion)
 
-#patient table
-c.execute("""CREATE TABLE patients(
-    f_name text,
-    l_name text,
-    phone integer,
-    age integer,
-    disease text
-)""")
+# #patient table
+# c.execute("""CREATE TABLE patients(
+#     f_name text,
+#     l_name text,
+#     phone integer,
+#     age integer,
+#     disease text
+# )""")
 
-#doctor table
-c.execute("""CREATE TABLE doctors(
-    f_name text,
-    l_name text,
-    phone integer,
-    email text
-)""")
+# #doctor table
+# c.execute("""CREATE TABLE doctors(
+#     f_name text,
+#     l_name text,
+#     phone integer,
+#     email text
+# )""")
 
-#staff table
-c.execute("""CREATE TABLE staffs(
-    f_name text,
-    l_name text,
-    phone integer,
-    email text
-)""")
+# #staff table
+# c.execute("""CREATE TABLE staffs(
+#     f_name text,
+#     l_name text,
+#     phone integer,
+#     email text
+# )""")
 
 #to continiously run the loop.
 while True:
